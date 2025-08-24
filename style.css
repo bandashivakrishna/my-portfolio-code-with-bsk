@@ -1,0 +1,137 @@
+header{
+    background-color:#2196f3;
+    height: 100vh;
+    color:white;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    flex-wrap: wrap;
+    
+
+}
+
+header h1{
+    text-align: center;
+    color:white;
+}
+
+*{
+    font-family: monospace;
+      font-size: 20px;
+   
+}
+
+h1{
+    font-size: 50px;
+    color:#2196f3;
+}
+
+body{
+    margin:0;
+    background-color:#f0f8ff;
+  
+
+}
+
+main{
+    padding:20px
+}
+
+
+section{
+    height:100vh;
+    border:1px solid black;
+    border-radius:20px;  
+    margin: 20px;    
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.button{
+
+    transition: all 0.3s ease 0s;
+    margin:15px;
+    height: 40px;
+    width: 140px;
+    border:0;
+    border-radius:10px;
+    cursor:pointer; 
+}
+.button:hover{
+    background-color:#137ace;
+     color: white;
+     transform:  translateY(-10px);
+}
+form div{
+    margin:5px 0 0;
+}
+
+img{
+    height:300px;
+    width:300px;
+}
+
+input{
+    border-radius:5px;
+    height:25px;
+    border:1px solid black 
+}
+
+.cbutton{
+    height: 40px;
+    width: 140px;
+    border:0;
+    border-radius:10px;
+    cursor:pointer; 
+    background-color:#137ace;
+    color: white;
+ 
+a {
+    text-decoration: none;
+}
+}
+.cbutton:hover{
+ background-color:darkblue;
+    color: white;
+   
+}
+footer{
+    color: lightgrey;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tbutton{
+
+    height: 70px;
+    width: 70px;
+    border:none;
+    bottom: 10px;
+    right: 10px;
+   position: fixed;
+    border-radius:100%;
+    cursor:pointer; 
+    background-color:#137ace;
+    color: white;
+  
+}
+.tbutton:hover{
+ background-color:darkblue;
+    color: white;
+
+}
+ol li{
+    font-size: 20px;
+}
+
+
+ 

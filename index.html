@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>my portfolio</title>
-        <link rel="icon" type="image" href="BSK_17.jpg">
+        <title>MY PORTFOLIO</title>
+        <link rel="icon" type="image/icon" href="BSK_17.jpg">
+        <link rel="stylesheet" href="style.css">
         
     </head>
 
+    
 
     <body>
         <header> 
-        <h1>welcome to my portfolio</h1>
-        <a href=""><button>about</button></a>
-        <a href=""><button>skills</button></a>
-        <a href=""><button>projects</button></a>
-        <a href=""><button>contact</button></a> 
+         <div>
+
+            <h1>welcome to my portfolio</h1>
+            <a href="#about"><button class="button">about</button></a>
+            <a href="#skills"><button class="button">skills</button></a>
+            <a href="#projects"><button class="button">projects</button></a>
+            <a href="#contact"><button class="button">contact</button></a> 
+         </div>
         
        </header>
 
@@ -23,12 +28,12 @@
 
      <section id="about">
 
-         <h1>shivakrishna gnu</h1>
+         <h1>Shivakrishna Gnu</h1>
         <img src="BSK_17.jpg" alt="a photo of me" width="200" height="200">
-        <p>iam a passionate web developer with a focus on front end techologies</p>
-        <p>iam currently purusing my btech in Guru nanak university ibrahimpatnam</p>
-        <p>I have learnt web deveploment <br>from coding with chinnakoduku</p>
-        <p>you can <b>click here</b> to checkout what i have learnt in html css js</p>
+        <p>Iam a Passionate Web Developer with a Focus on Front End Techologies.</p>
+        <p>Iam Currently Purusing My B.Tech In Guru Nanak University,Ibrahimpatnam.</p>
+        
+        <p>you can <b>click here</b> to Checkout What I have learnt in Html Css Javascript.</p>
 
      </section>
 
@@ -50,7 +55,7 @@
        <table border="1" cellspacing="3" cellpadding="3"> 
         <tr>
             <th>project</th>
-            <th>description</th>
+            <th>Description</th>
         </tr>
        
         <tr>
@@ -60,7 +65,7 @@
        
          <tr>
             <td>python simple calculator</td>
-            <td>I have built a simple calculator in the course by coding with chinnakoduku</td>
+            <td>I have built a simple calculator in the course by coding with swaroop</td>
          </tr>
 
        </table>
@@ -69,59 +74,70 @@
 
      <section id="contact">
          
-         <h1>contact me</h1>
-       <p>feel free to get in touch with me using th form below:</p>
+         <h1>Contact Me</h1>
+       <p>Feel free to get in touch with me using th form below:</p>
 
-       <form>
-       <label for="name">name:</label>
-       <input type="text" required id="name" name="name">
+       <form action="" method="">
+      <div>
 
-       <br>
-       <br>
-      
-    <label for="email">email:</label>
-    <input type="email" required id="email" name="email">
+         <label for="name">Name:</label>
+         <input type="text" required id="name" name="name" placeholder=" Enter your name">
+      </div>
 
-    <br>
-    <br>
-      
-
-    <b>choose you gender:</b>
-
-    <input type="radio" id="male" name="gender" value="male">
-    <label for="male">male</label>
-
-    <input type="radio" id="female" name="gender" value="female">
-    <label for="female">female</label>
-
-    <br>
-    <br>
-
-    <b> choose your interets:</b>
-
-    <input type="checkbox"  id="reading" name="interets" value="reading books">
-    <label for="reading">reading books</label>
-
-
-    <input type="checkbox"  id="watching news" name="interets" value="watching news">
-    <label for="watching news">watching news</label>
-   <br>
-   <br>
-   
-    <label for="bio">bio (up to 200 characters):</label>
-    <input type="text" id="bio" placeholder="enter your biography">
     
-    <br>
-   <br>
+    <div>
 
-    <button type="submit">submit</button>
+       <label for="email">Email:</label>
+       <input type="email" required id="email" name="email" placeholder=" Enter your email">
+       
+      </div>  
+  
+   
+      <div>
+
+         
+         <b>choose you gender:</b>
+         
+         <input type="radio" id="male" name="gender" value="male">
+         <label for="male">male</label>
+         
+         <input type="radio" id="female" name="gender" value="female">
+         <label for="female">female</label>
+         
+      </div>
+  
+    <div>
+
+       <b> choose your interets:</b>
+       
+       <input type="checkbox"  id="reading" name="interets" value="reading books">
+       <label for="reading">reading books</label>
+       
+       
+       <input type="checkbox"  id="watching news" name="interets" value="watching news">
+       <label for="watching news">watching news</label>
+       
+      </div>
+  
+      <div>
+
+         <label for="bio">bio (up to 200 characters):</label>
+         <input type="text" id="bio" placeholder=" Enter your biography">
+         
+      </div>
+   
+
+    <button type="submit" class="cbutton">submit</button>
 
        </form>
 
     </section>
 
        </main>
+<a href="">
 
+   <button  class="tbutton">Top</button>
+</a>
 
        <footer>
         <p>@ 2025 portfolio</p>
